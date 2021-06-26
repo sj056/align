@@ -1,0 +1,15 @@
+.slick-slide{
+    background: linear-gradient(#1f643d,transparent );
+  }
+  .headerTxt{
+    color: #1f643d;
+      font-weight: 400;
+      font-size: 24px;
+  }
+  
+  .slick-slide img{
+    display: initial !important;
+    height: 65vh;
+    margin: 6vh 0;
+    width: auto;
+  }

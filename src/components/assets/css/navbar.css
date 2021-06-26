@@ -1,0 +1,10 @@
+.navbar{
+    background-color:#1f643d;
+    padding:2vh 1vh;
+  }
+  .nav-link{
+    color:white;
+  }
+  .navbar-collapse{
+    justify-content: flex-end;
+  }
