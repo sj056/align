@@ -9,7 +9,7 @@ const Overlay=()=>{
   <source src={logo} type="video/mp4" />
 Your browser does not support the video tag.
 </video>
-<h6>align your dream home furnishing with reality..</h6>
+<h6>Align your home<br/>Every place should feel like an oasis</h6>
     </div>
     );
 }

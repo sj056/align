@@ -6,7 +6,7 @@
     color: #1f643d;
     margin-bottom: 30px;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
 }
 .newArrivals>.cardsContainer>.col-sm-4>.card{
     border: none;
@@ -56,16 +56,18 @@
       width: 95%;
   }
 
-  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row{
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-flex{
       justify-content: space-around;
   }
-  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.name{
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.name{
     color: #0D2718;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 3px;
+
   }
-  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.price{
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.price{
     color: #64716a;
     font-weight: 600;
     text-transform: uppercase;
@@ -89,4 +91,9 @@
     0%{width:280px;height:280px;}
     50%{width:290px;height:290px;}
     100%{width:280px;height:280px;}
+  }
+  @media (max-width:820px){
+  .newArrivals{
+    padding: 8vh 2vh;
+  }
   }

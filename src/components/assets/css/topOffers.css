@@ -5,7 +5,7 @@
     font-size: 35px;
     color: #1f643d;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
 .topOffers>.cardsContainer>.col-sm-4>.card{
     border: none;
@@ -37,35 +37,23 @@
     animation: pulse 4s linear infinite;
   }
   
-  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.circle1>.circle2>.circle3{
-    background-color:#ee88fd;
-    height:100px;
-    border-radius:50%;
-    width: 500px;
-    margin: auto;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-    font-size:50px;
-    /* animation: pulse2 3s linear infinite; */
-  }
-  
   .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer{
       position: absolute;
       bottom: 0;
-      width: 100%;
+      width: 95%;
   }
 
-  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row{
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-felx{
       justify-content: space-around;
   }
-  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.name{
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.name{
     color: #0D2718;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 3px;
   }
-  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.price{
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.price{
     color: #64716a;
     font-weight: 600;
     text-transform: uppercase;
@@ -89,4 +77,9 @@
     0%{width:280px;height:280px;}
     50%{width:290px;height:290px;}
     100%{width:280px;height:280px;}
+  }
+  @media (max-width:820px){
+    .topOffers{
+      padding:8vh 2vh;
+    }
   }

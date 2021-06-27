@@ -29,9 +29,9 @@ const TopOffers=()=>{
           </div>
           </div>
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">Tufted Arm Chair in White color</p>
+              <p className="price">₹ 7888 &nbsp;&nbsp;&nbsp;<span>38% off</span></p>
               </div>
               
           </div>
@@ -47,9 +47,9 @@ const TopOffers=()=>{
           </div>
           </div>
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">2 seater cafe set</p>
+              <p className="price">₹ 10,888 &nbsp;&nbsp;&nbsp;<span>38% off</span></p>
               </div>
               
           </div>
@@ -65,9 +65,9 @@ const TopOffers=()=>{
           </div>
           </div>
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">Yellow ArmChair</p>
+              <p className="price">₹ 9888 &nbsp;&nbsp;&nbsp;<span>38% off</span></p>
               </div>
               
           </div>

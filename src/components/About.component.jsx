@@ -16,7 +16,7 @@ const About=()=>{
         <div className="about">
             <img src={logo} />
             <p  data-aos="fade-up">
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            Since 1990, Align showcases over 50,000+ world class contemporary products in Home Furnitures. You can book your favourites with easy EMI options avalaible online as well as on stores. Our furniture designs are inspired by various themes and an amalgamation of modern and urban furniture designs with the best quality and long durability. 
             </p>
         </div>
     );

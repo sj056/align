@@ -6,10 +6,18 @@
       font-weight: 400;
       font-size: 24px;
   }
-  
+  .header{
+    margin-top: 12vh;
+  }
   .slick-slide img{
     display: initial !important;
     height: 65vh;
     margin: 6vh 0;
     width: auto;
+  }
+
+  @media (max-width:820px){
+  .header>.headerTxt{
+    font-size: 17px;
+  }
   }

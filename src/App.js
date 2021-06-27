@@ -9,7 +9,9 @@ import About from './components/About.component';
 import Overlay from './components/Overlay.component';
 import HotPicks from './components/HotPicks.component'
 import ShowMore from './components/ShowMore.component';
+import Footer from './components/Footer.component';
 import {React, useEffect } from 'react';
+import SpecialOffer from './components/SpecialOffer.component';
 function App() {
   useEffect(()=>{
     window.onload = function () {
@@ -26,7 +28,9 @@ function App() {
      <NewArrivals/>
      <HotPicks />
      <ShowMore />
+     <SpecialOffer/>
      <About/>
+     <Footer />
     </div>
     </>
   );

@@ -26,9 +26,9 @@ const NewArrivals=()=>{
           <img src={img2} alt="couch"/>
          
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">Sky Blue 1 seater sofa</p>
+              <p className="price">₹ 16888 &nbsp;&nbsp;&nbsp;<span>38% off</span></p>
               </div>
               
           </div>
@@ -41,9 +41,9 @@ const NewArrivals=()=>{
           <img src={img1} alt="couch"/>
        
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">White Queen-size bed</p>
+              <p className="price">₹ 49888 &nbsp;&nbsp;&nbsp;<span>18% off</span></p>
               </div>
               
           </div>
@@ -56,9 +56,9 @@ const NewArrivals=()=>{
           <img src={img3} alt="couch"/>
        
           <div className="btmContainer">
-              <div className="d-flex flex-row">
-              <p className="name">type of furniture</p>
-              <p className="price">price: Rs.9888 <span>38% off</span></p>
+              <div className="d-flex flex-column">
+              <p className="name">Upholstered Powder blue Armchair</p>
+              <p className="price">₹ 7888 &nbsp;&nbsp;&nbsp;<span>13% off</span></p>
               </div>
               
           </div>

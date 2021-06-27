@@ -1,0 +1,62 @@
+.showMore{
+    padding: 12vh 20vh;
+}
+.showMore>div>button{
+    background: white;
+    border: none;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #1f643d;
+    font-weight: 400;
+}
+.showMore>div>button>img{
+    height: 25px;
+}
+.showMore>.btnContainer{
+    margin-bottom: 40px;
+}
+.showMore>.row>.col-sm-4>.card{
+    border: none;
+}
+.showMore>.row>.col-sm-4>.card>.card-body>img{
+    height: 170px;
+    width: auto;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+.showMore>.row>.col-sm-4>.card>.card-body:hover{
+    box-shadow: rgba(31,100,61 ,0.2) 0px 2px 8px 0px;
+    border-radius: 35px;
+}
+.showMore>.row>.col-sm-4>.card>.card-body>img:hover{
+    transform: scale(1.1);
+}
+.showMore>.row>.col-sm-4>.card>.card-body{
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.showMore>.row>.col-sm-4>.card>.card-body>.btmContainer>.d-felx{
+    justify-content: space-around;
+}
+.showMore>.row>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.name{
+  color: #0D2718;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+.showMore>.row>.col-sm-4>.card>.card-body>.btmContainer>.d-flex>.price{
+  color: #64716a;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (max-width:820px){
+    .showMore{
+        padding: 8vh 2vh;
+    }
+}
