@@ -1,6 +1,7 @@
 import React,{useRef,useEffect} from 'react';
 import logo from './assets/images/animatedLogo.mp4';
 import './assets/css/overlay.css';
+
 const Overlay=()=>{
     return(
         <div className="overlay">

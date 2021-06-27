@@ -1,16 +1,25 @@
-import React from 'react';
+import {React,useEffect} from 'react';
 
 import img1 from './assets/images/topOffer/topOfferImg1.png';
 import img2 from './assets/images/topOffer/topOfferImg2.png';
 import img3 from './assets/images/topOffer/topOfferImg3.png';
+import AOS from "../../node_modules/aos";
 
+import "aos/dist/aos.css";
 import './assets/css/topOffers.css';
 
 const TopOffers=()=>{
+
+  useEffect(() => {
+       
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
     return(
         <div className="topOffers">
             <h5 className="heading">Top Offers</h5>
-            <div className="cardsContainer row">
+            <div className="cardsContainer row" data-aos="fade-right">
             <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
