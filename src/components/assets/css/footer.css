@@ -80,8 +80,7 @@ body{
     margin:6px;
     }
     footer>.socialContainer>img{
-        width:74%;
-        margin-left: 13%;
+        display:none;
     }
     footer>.socialContainer{
         flex-direction: column;
@@ -97,9 +96,7 @@ body{
         flex-direction: column;
     }
     footer>.socialContainer>img{
-        width:74%;
-        height: auto;
-        margin-left: 13%;
+       display:none;
     }
     footer>.socialContainer>.column-container{
         flex-direction: column;

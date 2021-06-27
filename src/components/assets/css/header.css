@@ -18,6 +18,9 @@
 
   @media (max-width:820px){
   .header>.headerTxt{
-    font-size: 17px;
+    font-size: 21px;
+  }
+  .slick-slide img{
+    height: 55vh;
   }
   }
