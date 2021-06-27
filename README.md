@@ -1,6 +1,6 @@
 <h1 align="center">ALIGN</h1>
 
-<p align="center">one destination to find the perfect home furniture for your place.</p>
+<p align="center">one destination to find the perfect furniture for your place.</p>
 
 <h4>This Website is developed for WebOCode, a 24 hours long Front-End Development Competition organised by NSUT, Delhi.</h4>
 
@@ -46,6 +46,14 @@ Launches the test runner in the interactive watch mode.
 ## References 
 
 - Images taken from [UNSPLASH](https://unsplash.com/)
+
+## Challenges
+
+- Single-handedly developing a website from scratch and finding all the assets required in the time-frame of 24 hours was challenging for me.
+
+## Things I learnt
+
+- Learnt the importance of interface of a site in helping to obtain 100% customer attention.
 
 ## Author
 
