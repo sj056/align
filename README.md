@@ -2,7 +2,7 @@
 
 <p align="center">one destination to find the perfect home furniture for your place.</p>
 
-<h4>This Website is developed for Web0Code, a 24 hours long Front-End Development Competition organised by NSUT, Delhi.</h4>
+<h4>This Website is developed for WebOCode, a 24 hours long Front-End Development Competition organised by NSUT, Delhi.</h4>
 
 ## Details
 
@@ -16,7 +16,7 @@
 
 ## SCREENSHOT
 
-![Screenshot (118)](https://user-images.githubusercontent.com/56972234/123550617-fffb0900-d78b-11eb-83b9-92bf15538a69.png)
+![Screenshot (118)](https://user-images.githubusercontent.com/56972234/123552127-5ec38100-d792-11eb-8a01-db07effd6d4f.png)
 
 ## Available Commands
 
@@ -42,6 +42,10 @@ Launches the test runner in the interactive watch mode.
 - JavaScript
 - HTML
 - CSS
+
+## References 
+
+- Images taken from [UNSPLASH](https://unsplash.com/)
 
 ## Author
 
