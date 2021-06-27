@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
 import c1 from './assets/images/headerCrouselImgs/c1.jpg';
-import c2 from './assets/images/headerCrouselImgs/c2.jpg';
-import c3 from './assets/images/headerCrouselImgs/c3.jpg';
+import c2 from './assets/images/headerCrouselImgs/c20.jpg';
+import c3 from './assets/images/headerCrouselImgs/c30.jpg';
 
 import './assets/css/header.css';
 
