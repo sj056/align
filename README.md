@@ -2,7 +2,11 @@
 
 <p align="center">one destination to find the perfect home furniture for your place.</p>
 
-<h6>This Website is developed for <bold>Web0Code | Front-End Development Competition</bold> organised by NSUT, Delhi. This is based on the theme <bold>House Application and Furniture</bold>.</h6>
+<h4>This Website is developed for Web0Code, a 24 hours long Front-End Development Competition organised by NSUT, Delhi.</h4>
+
+## Details
+
+- Theme : Home Application and Furniture
 
 ## Links
 
@@ -10,8 +14,9 @@
 
 - [Live](https://alignn.herokuapp.com/ "Live View")
 
-## GIFS
+## SCREENSHOT
 
+![Screenshot (118)](https://user-images.githubusercontent.com/56972234/123550617-fffb0900-d78b-11eb-83b9-92bf15538a69.png)
 
 ## Available Commands
 
