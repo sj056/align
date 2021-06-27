@@ -2,15 +2,16 @@
 
 <p align="center">one destination to find the perfect home furniture for your place.</p>
 
+<h6>This Website is developed for <bold>Web0Code | Front-End Development Competition</bold> organised by NSUT, Delhi. This is based on the theme <bold>House Application and Furniture</bold>.</h6>
+
 ## Links
 
 - [Repo](https://github.com/sj056/align "align Repo")
-<!-- 
-- [Live](https://alignn.herokuapp.com/ "Live View") -->
-<!-- 
+
+- [Live](https://alignn.herokuapp.com/ "Live View")
+
 ## GIFS
 
-![Home Page](/screenshots/1.png "Home Page") -->
 
 ## Available Commands
 
@@ -29,22 +30,11 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 Launches the test runner in the interactive watch mode.
 
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
-
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
-
-### `"serve": "node server"`
-
-For running the server file on you can use this command.
-
-### `npm run serve`
 
 ## Built With
 
+- Reactjs
 - JavaScript
-- Node
-- NPM
-- Webpack
 - HTML
 - CSS
 
