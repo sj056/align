@@ -1,6 +1,6 @@
 <h1 align="center">ALIGN</h1>
 
-<p align="center">one destination to find the perfect home furnishing.</p>
+<p align="center">one destination to find the perfect home furniture for your place.</p>
 
 ## Links
 
