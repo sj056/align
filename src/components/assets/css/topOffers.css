@@ -1,0 +1,92 @@
+.topOffers{
+    padding: 12vh 6vh;
+}
+.topOffers>.heading{
+    font-size: 35px;
+    color: #1f643d;
+    font-weight: 400;
+    text-align: left;
+}
+.topOffers>.cardsContainer>.col-sm-4>.card{
+    border: none;
+}
+.topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.circle1>.circle2>img{
+    height: 160px;
+    width: auto;
+}
+
+.topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.circle1{
+    background-color: #ebfff4b5;
+    height: 280px;
+    border-radius: 50%;
+    width: 280px;
+    margin: auto;
+    animation: pulse3 10s linear infinite;
+  }
+  
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.circle1>.circle2{
+    background-color: #e3f2eac9;
+    height: 215px;
+    border-radius: 50%;
+    width: 215px;
+    margin: auto;
+    transform: translate(0%,13%);
+    color: white;
+    font-size: 40px;
+    padding-top: 6%;
+    animation: pulse 4s linear infinite;
+  }
+  
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.circle1>.circle2>.circle3{
+    background-color:#ee88fd;
+    height:100px;
+    border-radius:50%;
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:50px;
+    /* animation: pulse2 3s linear infinite; */
+  }
+  
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row{
+      justify-content: space-around;
+  }
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.name{
+    color: #0D2718;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.price{
+    color: #64716a;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .topOffers>.cardsContainer>.col-sm-4>.card>.card-body{
+      height: 350px;
+  }
+  @keyframes pulse{
+    0%{width:215px;height:215px;}
+    50%{width:225px;height:225px;}
+    100%{width:215px;height:215px;}
+  }
+  
+  @keyframes pulse2{
+    0%{width:100px;height:100px;}
+    50%{width:150px;height:150px;}
+    100%{width:100px;height:100px;}
+  }
+  
+  @keyframes pulse3{
+    0%{width:280px;height:280px;}
+    50%{width:290px;height:290px;}
+    100%{width:280px;height:280px;}
+  }

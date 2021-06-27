@@ -1,0 +1,10 @@
+.overlay{
+    opacity: 0%;
+    transform: translate(0%,13%);
+    animation: fadeout 8s linear infinite;
+}
+@keyframes fadeout{
+    0%{width:100%;height:100vh;opacity: 1;}
+    50%{width:50%;height:50vh;opacity: 10.5}
+    100%{width:0;height:0;opacity: 0;}
+  }

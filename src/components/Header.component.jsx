@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import c1 from './assets/images/headerCrouselImgs/c1.jpg';
 import c2 from './assets/images/headerCrouselImgs/c2.jpg';
 import c3 from './assets/images/headerCrouselImgs/c3.jpg';
+
 import './assets/css/header.css';
 
 const Header=()=>{
@@ -32,3 +33,4 @@ return(
 </div>
 );
 }
+export default Header;

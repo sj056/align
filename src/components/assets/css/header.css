@@ -1,7 +1,7 @@
 .slick-slide{
     background: linear-gradient(#1f643d,transparent );
   }
-  .headerTxt{
+  .header>.headerTxt{
     color: #1f643d;
       font-weight: 400;
       font-size: 24px;

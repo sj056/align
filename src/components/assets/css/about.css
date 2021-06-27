@@ -1,0 +1,10 @@
+.about{
+   padding: 10vh 20vh;
+}
+.about>p{
+    font-size: 20px;
+    color: #64716a;
+}
+.about>img{
+    margin-bottom: 20px;
+}

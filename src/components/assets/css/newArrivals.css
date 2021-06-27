@@ -1,0 +1,92 @@
+.newArrivals{
+    padding: 10vh 6vh;
+}
+.newArrivals>.heading{
+    font-size: 40px;
+    color: #1f643d;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: right;
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card{
+    border: none;
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>img{
+    height: 170px;
+    width: auto;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card>.card-body:hover{
+    box-shadow: rgba(31,100,61 ,0.2) 0px 2px 8px 0px;
+    border-radius: 35px;
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>img:hover{
+    transform: scale(1.1);
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card>.card-body{
+    position: relative;
+    overflow: hidden;
+}
+.newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.circle1{
+    background-color: #ebfff4b5;
+    height: 280px;
+    border-radius: 50%;
+    width: 280px;
+    margin: auto;
+    animation: pulse3 10s linear infinite;
+  }
+  
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.circle1>.circle2{
+    background-color: #e3f2eac9;
+    height: 215px;
+    border-radius: 50%;
+    width: 215px;
+    margin: auto;
+    transform: translate(0%,13%);
+    color: white;
+    font-size: 40px;
+    padding-top: 6%;
+    animation: pulse 4s linear infinite;
+  }
+  
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer{
+      position: absolute;
+      bottom: 0;
+      width: 95%;
+  }
+
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row{
+      justify-content: space-around;
+  }
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.name{
+    color: #0D2718;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body>.btmContainer>.flex-row>.price{
+    color: #64716a;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .newArrivals>.cardsContainer>.col-sm-4>.card>.card-body{
+      height: 315px;
+  }
+  @keyframes pulse{
+    0%{width:215px;height:215px;}
+    50%{width:225px;height:225px;}
+    100%{width:215px;height:215px;}
+  }
+  
+  @keyframes pulse2{
+    0%{width:100px;height:100px;}
+    50%{width:150px;height:150px;}
+    100%{width:100px;height:100px;}
+  }
+  
+  @keyframes pulse3{
+    0%{width:280px;height:280px;}
+    50%{width:290px;height:290px;}
+    100%{width:280px;height:280px;}
+  }
